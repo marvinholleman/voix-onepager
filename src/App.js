@@ -1,13 +1,24 @@
 import React, { Component } from 'react';
-import './App.css';
+import { createGlobalStyle } from "styled-components";
+
+import Page from './modules/Page';
+
+const GlobalStyles = createGlobalStyle`
+  body {
+    @import url('./src/static/CircularStd-Medium.otf');
+    font-family: 'Circular Std';
+  }
+`;
+
+
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-        </header>
-      </div>
+      <>
+        <GlobalStyles />
+        <Page />
+      </>
     );
   }
 }
