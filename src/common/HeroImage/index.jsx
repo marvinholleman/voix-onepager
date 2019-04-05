@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import groupimage from '../../static/group.jpeg';
+
 const ImageContainer = styled.div`
 `;
 
@@ -8,12 +10,12 @@ const Image = styled.img`
     width: 100vw;
     height: 600px;
     object-fit: cover;
-    margin: 100px auto;
+    margin: 0 auto;
 `;
 
 const HeroImage = () => (
     <ImageContainer>
-        <Image src={'https://via.placeholder.com/800'} />
+        <Image src={groupimage} />
     </ImageContainer>
 );
 

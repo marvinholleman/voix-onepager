@@ -5,12 +5,12 @@ export const HeaderContainer = styled.div`
     justify-content: center;
     width: 100%;
     flex-direction: column;
+    margin-bottom: 100px;
 `;
 
 export const LogoContainer = styled.div`
     display: flex;
     justify-content: center;
-    bottom: 25px;
     position: relative;
 `;
 
@@ -26,27 +26,35 @@ export const HeaderContentContainer = styled.div`
 `;
 
 export const ContentWrapper = styled.div`
-    margin: 75px auto;
+    margin: 0 auto;
     max-width: 650px;
+    margin-top: -320px;
 `;
 
 export const HeaderTitle = styled.h1`
     color: white;
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 10px solid #f7a60a;
     letter-spacing: 1px;
-    font-size: 22px;
+    font-size: 40px;
+    text-transform: uppercase;
+    width: 110px;
+    margin: 0 auto;
 `;
 
 export const HeaderContent = styled.p`
     color: white;
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Poppins', sans-serif;
     letter-spacing: 1px;
     font-size: 13px;
+    line-height: 25px;
 `;
 
-export const HeaderDivider = styled.div`
-    width: 80%;
-    height: 15px;
-    background-color: white;
-    margin: 100px auto;
+export const PresLink = styled.a`
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    font-size: 18px;
+    position: relative;
+    top: 75px;
 `;

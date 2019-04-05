@@ -2,10 +2,12 @@
   "name": "voix",
   "version": "0.1.0",
   "private": true,
+  "homepage": "./",
   "dependencies": {
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-scripts": "2.1.8",
+    "react-scroll": "^1.7.11",
     "styled-components": "^4.1.3"
   },
   "scripts": {

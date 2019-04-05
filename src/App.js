@@ -10,8 +10,6 @@ const GlobalStyles = createGlobalStyle`
   }
 `;
 
-
-
 class App extends Component {
   render() {
     return (

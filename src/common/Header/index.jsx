@@ -1,28 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import lookatlogo from '../../static/lookatlogo.PNG';
+import HeroImage from '../HeroImage';
+import Menu from '../Menu';
+import lookatlogo from '../../static/logo.svg';
 
-import { HeaderContainer, LogoContainer, Logo, HeaderContentContainer, HeaderTitle, HeaderContent, ContentWrapper, HeaderDivider } from './styled';
+
+import { HeaderContainer, LogoContainer, Logo, HeaderContentContainer, HeaderTitle, HeaderContent, ContentWrapper, HeaderDivider, PresLink } from './styled';
 
 const Header = () => (
     <HeaderContainer>
-        <LogoContainer>
-            <Logo src={lookatlogo} />
-        </LogoContainer>
+        <Menu />
+        <HeroImage />
         <HeaderContentContainer>
             <ContentWrapper>
-                <HeaderTitle>Koptext</HeaderTitle>
-                <HeaderContent>Duis eget eros fermentum, posuere ligula vitae, faucibus ligula. Ut vel nisl odio. Lorem ipsum
-        dolor sit amet, consectetur adipiscing elit. Praesent metus lectus, faucibus id ex id, hendrerit
-        dignissim massa. Praesent gravida tristique hendrerit. Donec semper dui vitae enim laoreet,
-        sit amet fermentum felis laoreet. Fusce ut metus vel mauris rutrum iaculis. Phasellus maximus
-        metus non venenatis pretium. Cras nec viverra dui. Mauris laoreet urna auctor, faucibus justo sit
-
-amet, mattis nisl.</HeaderContent>
+                <HeaderTitle>Voix</HeaderTitle>
+                <HeaderContent>Laaggeletterde hebben vaak last van handelingen waarbij veel administratieve zaken te pas komen. Zoals gegevens invoeren of notificaties begrijpen zoals E-mails of brieven van de overheid. Ook is de doelgroep gevoelig voor acute veranderingen, dit gaat gepaard met stress.
+</HeaderContent>
             </ContentWrapper>
         </HeaderContentContainer>
-        <HeaderDivider />
     </HeaderContainer>
 );
 
