@@ -26,7 +26,7 @@ export const SectionTitle = styled.h1`
 
 export const TextBoxxesSection = styled.div`
     background-color: #1f4392;
-    height: 2050px;
+    height: 2090px;
 
     ${props => props.second && css`
         position: relative;

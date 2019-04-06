@@ -15,7 +15,7 @@ const Header = () => (
         <HeaderContentContainer>
             <ContentWrapper>
                 <HeaderTitle>Voix</HeaderTitle>
-                <HeaderContent>Laaggeletterde hebben vaak last van handelingen waarbij veel administratieve zaken te pas komen. Zoals gegevens invoeren of notificaties begrijpen zoals E-mails of brieven van de overheid. Ook is de doelgroep gevoelig voor acute veranderingen, dit gaat gepaard met stress.
+                <HeaderContent>Wij zijn VOIX. Een gedreven groep ontwerpers en developers van de Hogeschool Rotterdam. In opdracht van Gemeente Rotterdam hebben wij een concept bedacht om een dienst te verbeteren door middel van Voice Assistent. Prestatie gericht en weten van aanpakken, dat is waar wij goed in zijn!
 </HeaderContent>
             </ContentWrapper>
         </HeaderContentContainer>
