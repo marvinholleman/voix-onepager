@@ -10,9 +10,10 @@ const scroll = Scroll.animateScroll;
 const Menu = () => (
     <MenuContainer>
         <MenuLogo>Voix</MenuLogo>
-        <MenuItem first onClick={() => scroll.scrollTo(600)}>Connect</MenuItem>
-        <MenuItem onClick={() => scroll.scrollTo(1800)}>Concept</MenuItem>
-        <MenuItem onClick={() => scroll.scrollTo(3100)}>Realiseren</MenuItem>
+        <MenuItem first onClick={() => scroll.scrollTo(550)}>Connect</MenuItem>
+        <MenuItem onClick={() => scroll.scrollTo(2950)}>Concept</MenuItem>
+        <MenuItem onClick={() => scroll.scrollTo(5350)}>Realiseren</MenuItem>
+        <MenuItem onClick={() => scroll.scrollTo(7050)}>Aanbevelingen</MenuItem>
     </MenuContainer>
 );
 

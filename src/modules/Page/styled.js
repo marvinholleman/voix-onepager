@@ -73,7 +73,7 @@ export const ItemsContainer = styled.div`
 `;
 
 export const BulletItem = styled.p`
-    
+    font-family: 'Poppins', sans-serif;
     color: white;
     width: 340px;
     padding: 10px 30px;
@@ -105,7 +105,7 @@ export const PosterLink = styled.a`
     justify-content: center;
     align-items: center;
     transition: all ease-in-out 1s;
-    
+
 
     &:hover {
     text-decoration: underline;
