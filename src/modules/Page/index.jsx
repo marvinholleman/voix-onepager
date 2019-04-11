@@ -23,7 +23,7 @@ import iteratie from '../../static/iteratie.JPG';
 import coci from '../../static/coci.png';
 import lookat from '../../static/lookat.png';
 
-import { Container, TextBoxxesSection, ImageBlockSection, SectionTitle } from './styled';
+import { Container, TextBoxxesSection, ImageBlockSection, SectionTitle, TextContainer, Title, ItemsContainer, BulletItem, PosterLink, LinkContainer } from './styled';
 
 class Page extends React.Component {
     render() {
@@ -69,6 +69,29 @@ class Page extends React.Component {
                 <ImageBlockSection second>
                     <ImageBlock image={lookat} second />
                 </ImageBlockSection>
+                <SectionTitle second>Conceptfase</SectionTitle>
+                <TextBoxxesSection third>
+                    <TextContainer>
+                        <Title>Aanbevelingen</Title>
+                        <ItemsContainer>
+
+                            <BulletItem>Een uitleg in de app verwerken zodat de gebruiker de nut van de app begrijpt
+</BulletItem>
+                            <BulletItem>Tekst kunnen inzien per stap, zodat deze ook vertaald kan worden in eigen taal</BulletItem>
+
+                            <BulletItem>De pauze knop is niet duidelijk. Daar moeten we meer onderzoek naar doen en het verwerken in de app</BulletItem>
+                            <BulletItem>Het ontwerp voice first maken zodat de app zonder handelingen gebruikt kan worden
+</BulletItem>
+
+
+                            <BulletItem last>Huisstijl aanpassen. Zodat het gelinkt is naar de context. Uit de testen bleek dat de
+	testpersonen niet het gevoel hadden dat ze in een stadskantoor waren</BulletItem>
+                        </ItemsContainer>
+                    </TextContainer>
+                </TextBoxxesSection>
+                <LinkContainer>
+                    <PosterLink target="_blank" href="https://drive.google.com/a/hr.nl/file/d/1maOscVVtgQgykWbL_7KwHSHE2aVL-or-/view?usp=sharing">Bekijk presentatie poster</PosterLink>
+                </LinkContainer>
                 <Footer />
             </Container>
         );

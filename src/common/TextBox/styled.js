@@ -6,7 +6,7 @@ export const TextBoxContainer = styled.div`
     width: 80%;
     position: relative;
     top: -60px;
-
+    
     ${props => props.left && css`
         flex-direction: row-reverse;
     `};

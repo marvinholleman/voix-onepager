@@ -9,6 +9,7 @@ const FooterContainer = styled.div`
     justify-content: center;
     height: 175px;
     align-items: center;
+    
 `;
 
 const FooterText = styled.p`
