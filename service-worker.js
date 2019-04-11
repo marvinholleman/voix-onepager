@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/voix-onepager/precache-manifest.076e047fbf083904961d078b905c57c3.js"
+  "/voix-onepager/precache-manifest.677cf2fd370f43e5620ee807ae916523.js"
 );
 
 workbox.clientsClaim();

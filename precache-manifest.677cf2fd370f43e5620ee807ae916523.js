@@ -76,7 +76,7 @@ self.__precacheManifest = [
     "url": "/voix-onepager/static/js/2.054525a3.chunk.js"
   },
   {
-    "revision": "8cda263c4ebe76a7238cf3a56bed50d2",
+    "revision": "552ecba5ff25cc4348436d9ce1baa224",
     "url": "/voix-onepager/index.html"
   }
 ];
